@@ -26,7 +26,7 @@ describe('Header component', () => {
   it('should have correct styles', () => {
     cy.get('.header').should('have.css', 'position', 'sticky');
 
-    cy.get('.header__title').should('have.css', 'font-weight', '600');
+    cy.get('.header__title').should('have.css', 'font-weight', '700');
 
     cy.get('.navigation__link').eq(0).should('have.css', 'opacity', '0.7');
   });

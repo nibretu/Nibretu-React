@@ -20,12 +20,12 @@ describe('Article component', () => {
 
     cy.get('.article__paragraph')
       .eq(0)
-      .should('have.css', 'color', 'rgb(51, 51, 51)');
+      .should('have.css', 'color', 'rgb(85, 85, 85)');
   });
 
   it('should have styles added with media', () => {
     cy.get('.article')
-      .should('have.css', 'padding-left', '44.8px')
+      .should('have.css', 'padding-left', '32px')
       .and('have.css', 'margin-bottom', '78.4px');
   });
 });
