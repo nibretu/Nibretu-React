@@ -15,7 +15,7 @@ describe('Welcome component', () => {
     cy.get('.welcome').should(
       'have.css',
       'background-color',
-      'rgb(76, 175, 80)',
+      'rgb(255, 127, 80)',
     );
 
     cy.get('.welcome__text').should('have.css', 'text-align', 'center');
