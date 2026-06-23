@@ -1,7 +1,7 @@
 /* Put welcome styles here */
 .welcome {
+  height: 100vh; /* Original had height */
   background: coral;
-  height: 100vh;
 }
 
 .welcome__text {
