@@ -21,7 +21,8 @@
   /* Remove line-height if it was not in original App.css */
 }
 
-.article__paragraph:not(:first-child) { /* Add this selector */
+.article__paragraph:not(:first-child) {
+  /* Add this selector */
   margin-top: 0.7em; /* Add this from original */
 }
 
