@@ -1,10 +1,25 @@
+iframe {
+  display: none;
+}
+
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 .app {
   min-height: 100vh;
   background-color: #f5f5f5;
+}
+
+html {
+  font-size: 10pt;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', 'Open Sans', Roboto, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #eee;
 }
